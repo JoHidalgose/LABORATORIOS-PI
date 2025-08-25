@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario con jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <h2>Formulario</h2>
+    <form id="miFormulario">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="apellido" placeholder="Apellido">
+        <button type="submit">Validar</button>
+    </form>
+    <div id="mensaje"></div>
+
+    <hr>
+
+    <div>
+        <button id="toggleClase">Agregar/Quitar clase</button>
+        <div id="bloqueTexto">Este es un bloque de texto.</div>
+    </div>
+
+    <hr>
+
+    <div>
+        <button id="mostrarOcultar">Mostrar/Ocultar</button>
+        <p id="parrafo">Este párrafo puede ocultarse o mostrarse.</p>
+    </div>
+</body>
+
+</html>
